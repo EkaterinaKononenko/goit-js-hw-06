@@ -32,6 +32,6 @@ function onSubmit(event) {
   if (email.value.trim() === "" || password.value.trim() === "") {
     alert("Вы заполнили не все поля формы!");
   }
-  event.currentTarget.reset();
   console.log(data);
+  event.currentTarget.reset();
 }
